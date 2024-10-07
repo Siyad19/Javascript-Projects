@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score card</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <h4 id="homescore">0</h4>
+            <button onclick="add1PointHome()">+1</button>
+            <button onclick="add2PointsHome()">+2</button>
+            <button onclick="add3PointsHome()">+3</button>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <h4 id="guestscore">0</h4>
+            <button onclick="add1PointGuest()">+1</button>
+            <button onclick="add2PointsGuest()">+2</button>
+            <button onclick="add3PointsGuest()">+3</button>
+        </div>
+    </div>
+    <div class="newgame">
+        <button onclick="newGame()">New Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
